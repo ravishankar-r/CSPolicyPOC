@@ -1,0 +1,22 @@
+{
+	"policy_description": "Checking for resources with no tags..",
+	"recommendation_name": "AWS_Create_Tag",
+	"recommendation_description": "It is highly recommended to tagging resources for better usability",
+	"classification": "Cost",
+	"sub_classification": "Config",
+	"severity": "low",
+	"resource_type": "EC2",
+	"service_resource": [
+		"Instances"
+	],
+	"uri": "",
+  "config_type": "managed",
+	"engine_type": "corestack_policy"
+	"assessment": {
+	"group_name": "AWS - Tagless resources",
+	"scenario_name": "AWS - Tags unavailability",
+	"description": "Pipeline Test scenario",
+	"weightage": "High",
+	"args": {}
+	}
+}
