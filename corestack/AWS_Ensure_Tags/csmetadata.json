@@ -11,14 +11,14 @@
 		"Instances"
 	],
 	"uri": "",
-  "services": ["AWS"],
-  "config_type": "managed",
-	"engine_type": "corestack_policy"
+	"services": ["AWS"],
+	"config_type": "managed",
+	"engine_type": "corestack_policy",
 	"assessment": {
-	"group_name": "AWS - Tagless resources",
-	"scenario_name": "AWS - Tags unavailability",
-	"description": "Pipeline Test scenario",
-	"weightage": "High",
-	"args": {}
+		"group_name": "AWS - Tagless resources",
+		"scenario_name": "AWS - Tags unavailability",
+		"description": "Pipeline Test scenario",
+		"weightage": "High",
+		"args": {}
 	}
 }
