@@ -1,0 +1,16 @@
+{
+	"policy_description": "Checking for Access Key rotation",
+	"recommendation_name": "Fix_Access_Key",
+	"recommendation_description": "It is highly recommended to rotate access keys in a given period",
+	"classification": "Security",
+	"sub_classification": "Network",
+	"severity": "medium",
+	"resource_type": "Virtual_Machines",
+	"resource_category": "Compute",
+	"service_resource": [
+		"Security_Groups"
+	],
+	"uri": "",
+	"config_type": "managed",
+	"engine_type": "congress"
+}
