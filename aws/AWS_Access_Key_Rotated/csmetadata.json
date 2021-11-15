@@ -6,12 +6,12 @@
 	"sub_classification": "Standards",
 	"severity": "medium",
 	"resource_type": "IAM",
-  "resource_category": "Identity",
+	"resource_category": "Identity",
 	"service_resource": [
 		"IAM_Users"
 	],
 	"uri": "",
-  "config_type": "managed",
-  "engine_type": "aws_config",
+	"config_type": "managed",
+	"engine_type": "aws_config",
 	"assessment": {}
 }
