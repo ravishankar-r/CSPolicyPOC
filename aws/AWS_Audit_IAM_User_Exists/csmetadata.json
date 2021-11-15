@@ -1,0 +1,16 @@
+{
+	"policy_description": "Checking for IAM User Exists",
+	"recommendation_name": "Fix_IAM_User",
+	"recommendation_description": "It is highly recommended to Check IAM User",
+	"classification": "Access",
+	"sub_classification": "Standards",
+	"severity": "medium",
+	"resource_type": "IAM",
+	"resource_category": "Identity",
+	"service_resource": [
+		"IAM_Users"
+	],
+	"uri": "",
+	"config_type": "custom",
+	"engine_type": "aws_config"
+}
