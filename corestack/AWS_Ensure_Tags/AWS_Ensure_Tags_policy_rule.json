@@ -1,0 +1,17 @@
+{
+	"policy_rule": {
+		"name": "ENSURE_RESOURCE_TAGS",
+		"query_source": "MongoDB",
+		"query_source_identifier": "service_resource_inventory",
+		"database_ref": "resource_inventory",
+		"query": "[{\"$match\": {\"tags\": {\"$ne\": {}}}}, {\"$project\": {\"ResourceType\": \"$resource\", \"ResourceId\": \"$check_resource_element\",\"_id\": 0,\"Location\": \"$resource_filter\",\"ResourceName\": \"$check_resource_element\"}}]",
+		"input_parameters": {},
+		"default_query": {
+			"is_deleted": false
+		},
+		"service_account_ref": {
+			"key_name": "service_account_id",
+			"key_type": "string"
+		}
+	}
+}
