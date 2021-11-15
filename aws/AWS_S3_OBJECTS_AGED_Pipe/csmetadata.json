@@ -1,0 +1,14 @@
+{
+  "policy_description": "Checks for Aged S3 Objects",
+  "recommendation_description": "Fix Aged S3 Objects",
+  "recommendation_name": "Delete_S3_Aged_Objects",
+  "classification": "Cost",
+  "sub_classification": "Config",
+  "severity": "medium",
+  "resource_type": "S3",
+  "service_resource": [
+    "Objects"
+  ],
+  "uri": "",
+  "assessment": {}
+}
