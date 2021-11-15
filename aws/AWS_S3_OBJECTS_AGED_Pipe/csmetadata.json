@@ -6,9 +6,12 @@
   "sub_classification": "Config",
   "severity": "medium",
   "resource_type": "S3",
+  "resource_category": "Storage",
   "service_resource": [
     "Objects"
   ],
   "uri": "",
-  "assessment": {}
+  "assessment": {},
+  "config_type": "managed",
+  "engine_type": "corestack_policy"
 }
