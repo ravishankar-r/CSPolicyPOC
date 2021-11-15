@@ -12,5 +12,6 @@
 	],
 	"uri": "",
 	"config_type": "managed",
-	"engine_type": "corestack_policy"
+	"engine_type": "corestack_policy",
+	"services": ["Azure"]
 }
