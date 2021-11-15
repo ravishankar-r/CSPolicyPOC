@@ -1,0 +1,16 @@
+{
+	"policy_description": "Checking for security port violation",
+	"recommendation_name": "Fix_port_violation",
+	"recommendation_description": "It is highly recommended to fix security ports violation for better security",
+	"classification": "Security",
+	"sub_classification": "Network",
+	"severity": "medium",
+	"resource_type": "Virtual_Machines",
+	"resource_category": "Compute",
+	"service_resource": [
+		"Security_Groups"
+	],
+	"uri": "",
+	"config_type": "managed",
+	"engine_type": "congress"
+}
