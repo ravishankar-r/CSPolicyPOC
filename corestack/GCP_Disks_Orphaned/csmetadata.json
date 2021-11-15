@@ -1,0 +1,17 @@
+{
+	"policy_description": "Checking for Orphaned Disks",
+	"recommendation_name": "Fix_orphanaed_Disks",
+	"recommendation_description": "It is highly recommended to delete orphaned disks to minimize the cost",
+	"classification": "Cost",
+	"sub_classification": "Orphaned",
+	"severity": "medium",
+	"resource_type": "Compute_Engine",
+	"resource_category": "Compute",
+	"service_resource": [
+		"Disks"
+	],
+	"uri": "",
+	"config_type": "managed",
+	"engine_type": "corestack_policy",
+  "services": ["GCP"]
+}
