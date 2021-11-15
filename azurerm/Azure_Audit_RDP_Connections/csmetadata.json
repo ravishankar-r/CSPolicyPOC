@@ -1,0 +1,16 @@
+{
+	"policy_description": "Checking for RDP Connections",
+	"recommendation_name": "Fix_RDP_Access",
+	"recommendation_description": "It is highly recommended to secure RDP connections",
+	"classification": "Security"
+	"sub_classification": "Network",
+	"severity": "medium",
+	"resource_type": "Virtual_Networks",
+	"resource_category": "Network",
+	"service_resource": [
+		"Security_Rule" 
+	],
+	"uri": "",
+	"config_type": "managed",
+	"engine_type": "azure_policy"
+}
