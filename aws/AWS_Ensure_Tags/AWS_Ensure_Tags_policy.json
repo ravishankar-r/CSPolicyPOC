@@ -1,0 +1,6 @@
+{
+  "Version": "1.0",
+  "query_source" : "MongoDB",
+  "RuleName": "ENSURE_RESOURCE_TAGS",
+  "InputParameters": {}
+}
