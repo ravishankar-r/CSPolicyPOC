@@ -1,0 +1,5 @@
+{
+  "constraint": "constraints/cloudfunctions.allowedIngressSettings",
+  "list_policy": {}
+}
+Allowed_Ingress_Settings
