@@ -1,0 +1,16 @@
+{
+	"policy_description": "Checking for IAM Password Expiry",
+	"recommendation_name": "Fix_IAM_Password_Expiry",
+	"recommendation_description": "It is highly recommended to change expired passwords",
+	"classification": "Security",
+	"sub_classification": "Data",
+	"severity": "medium",
+	"resource_type": "IAM",
+	"resource_category": "Identity",
+	"service_resource": [
+		"User"
+	],
+	"uri": "",
+	"config_type": "managed",
+	"engine_type": "oracle_cloud_guard"
+}
