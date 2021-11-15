@@ -1,0 +1,16 @@
+{
+	"policy_description": "Checking for os security group port violation ",
+	"recommendation_name": "Fix_security_port_violation",
+	"recommendation_description": "It is highly recommended to fix security port violation",
+	"classification": "Security",
+	"sub_classification": "Network",
+	"severity": "medium",
+	"resource_type": "Virtual_Machines",
+	"resource_category": "Compute",
+	"service_resource": [
+		"Security_Groups"
+	],
+	"uri": "",
+	"config_type": "managed",
+	"engine_type": "congress"
+}
