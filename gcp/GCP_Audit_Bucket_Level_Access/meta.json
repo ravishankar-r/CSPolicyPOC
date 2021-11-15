@@ -1,1 +1,16 @@
-{}
+{
+	"policy_description": "Checking for Bucket Access",
+	"recommendation_name": "Fix_Bucket_Access",
+	"recommendation_description": "It is highly recommended to analyse bucket level access",
+	"classification": "Security",
+	"sub_classification": "Data",
+	"severity": "medium",
+	"resource_type": "App_Engine",
+	"resource_category": "Compute",
+	"service_resource": [
+		"Services"
+	],
+	"uri": "",
+	"config_type": "managed",
+	"engine_type": "gcp_policy"
+}
