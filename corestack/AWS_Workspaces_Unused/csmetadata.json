@@ -1,0 +1,16 @@
+{
+	"policy_description": "Checking for Unused workspaces",
+	"recommendation_name": "Fix_unused_workspaces",
+	"recommendation_description": "It is highly recommended to remove unused workspaces to minimize the cost",
+	"classification": "Cost",
+	"sub_classification": "Config",
+	"severity": "medium",
+	"resource_type": "Workspaces",
+	"resource_category": "End_User_Computing",
+	"service_resource": [
+		"Workspaces"
+	],
+	"uri": "",
+	"config_type": "managed",
+	"engine_type": "corestack_policy"
+}
