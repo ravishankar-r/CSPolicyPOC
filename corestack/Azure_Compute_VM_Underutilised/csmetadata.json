@@ -1,0 +1,16 @@
+{
+	"policy_description": "Checking for under utilized compute VM",
+	"recommendation_name": "Fix_underutilized_VM",
+	"recommendation_description": "It is highly recommended to use or remove under utilized VM to minimize cost",
+	"classification": "Access",
+	"sub_classification": "Standards",
+	"severity": "medium",
+	"resource_type": "Virtual_Machines",
+	"resource_category": "Compute",
+	"service_resource": [
+		"Virtual_Machines"
+	],
+	"uri": "",
+	"config_type": "managed",
+	"engine_type": "corestack_policy"
+}
