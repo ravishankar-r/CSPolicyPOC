@@ -1,0 +1,1 @@
+"student_rule(student_id, course_id, login_id, user_id,type,name, #quiz_id#) :- canvas_courses:student(student_id=student_id,course_id=course_id,login_id=login_id,user_id=user_id,type=type,name=name),canvas_courses:course(course_id=course_id), equal(course_id,#course_id#) ,not has_students(student_id);"
