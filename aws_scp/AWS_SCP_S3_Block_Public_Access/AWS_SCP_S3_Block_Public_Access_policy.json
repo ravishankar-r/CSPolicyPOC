@@ -1,0 +1,6 @@
+{
+  "Name": "SCP_S3_BLOCK_PUBLIC_ACCESS",
+  "Description": "Prevents users or roles in any affected account from modifying the S3 Buckets Block Public Access Settings in an Account.",
+  "Type": "SERVICE_CONTROL_POLICY",
+  "Content": "{\n    \"Version\": \"2012-10-17\",\n    \"Statement\": [\n        {\n            \"Action\": [\n                \"s3:PutBucketPublicAccessBlock\"\n            ],\n            \"Resource\": \"*\",\n            \"Effect\": \"Deny\"\n        }\n    ]\n}"
+}
