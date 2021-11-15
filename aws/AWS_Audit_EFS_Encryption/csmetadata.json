@@ -1,0 +1,16 @@
+
+{
+	"policy_description": "Checking for EFS encryption",
+	"recommendation_name": "Fix_EFS",
+	"recommendation_description": "It is highly recommended to encrypt the EFS",
+	"classification": "Security",
+	"sub_classification": "Data",
+	"severity": "medium",
+	"resource_type": "EFS",
+	"resource_category": "Storage",
+	"service_resource": [
+		"FileSystem"
+	],
+	"uri": "",
+	"engine_type": "congress"
+}
