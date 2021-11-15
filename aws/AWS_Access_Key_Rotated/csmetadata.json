@@ -12,6 +12,5 @@
 	],
 	"uri": "",
 	"config_type": "managed",
-	"engine_type": "aws_config",
-	"assessment": {}
+	"engine_type": "aws_config"
 }
