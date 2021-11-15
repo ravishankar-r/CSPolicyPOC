@@ -4,7 +4,7 @@
 	"recommendation_description": "It is highly recommended to rotate access keys in a given period",
 	"classification": "Access",
 	"sub_classification": "Standards",
-	"severity": "medium",
+	"severity": "low",
 	"resource_type": "IAM",
 	"resource_category": "Identity",
 	"service_resource": [
