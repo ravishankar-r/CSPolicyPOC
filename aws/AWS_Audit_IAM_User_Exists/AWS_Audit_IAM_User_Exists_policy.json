@@ -1,0 +1,11 @@
+{
+  "Version": "1.0",
+  "Parameters": {
+    "RuleName": "CHECK_EXISTENCE_OF_IAM_USER",
+    "SourceRuntime": null,
+    "CS-exec-type": "custom",
+    "OptionalParameters": "{}",
+    "InputParameters": "{}",
+    "RuleSets": []
+  }
+}
