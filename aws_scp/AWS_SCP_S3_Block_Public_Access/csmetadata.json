@@ -1,0 +1,16 @@
+{
+	"policy_description": "Checking for scp S3 access",
+	"recommendation_name": "Fix_S3_Public_Access",
+	"recommendation_description": "It is highly recommended to block S3 access to public",
+	"classification": "Operation",
+	"sub_classification": "Standards",
+	"severity": "medium",
+	"resource_type": "S3",
+	"resource_category": "Storage",
+	"service_resource": [
+		"Buckets"
+	],
+	"uri": "",
+	"config_type": "managed",
+	"engine_type": "aws_organization_policy"
+}
