@@ -1,1 +1,17 @@
-{}
+{
+	"policy_description": "Checking for Access Key rotation",
+	"recommendation_name": "Fix_Access_Key",
+	"recommendation_description": "It is highly recommended to rotate access keys in a given period",
+	"classification": "Access",
+	"sub_classification": "Standards",
+	"severity": "medium",
+	"resource_type": "IAM",
+  "resource_category": "Identity",
+	"service_resource": [
+		"IAM_Users"
+	],
+	"uri": "",
+  "config_type": "managed",
+  "engine_type": "aws_config",
+	"assessment": {}
+}
