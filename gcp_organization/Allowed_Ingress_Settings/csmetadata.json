@@ -1,0 +1,16 @@
+{
+	"policy_description": "Checking for Ingress Settings",
+	"recommendation_name": "Fix_Ingress_Settings",
+	"recommendation_description": "It is highly recommended to change ingress settings",
+	"classification": "Operation",
+	"sub_classification": "Standards",
+	"severity": "medium",
+	"resource_type": "App_Engine",
+	"resource_category": "Compute",
+	"service_resource": [
+		"Services"
+	],
+	"uri": "",
+	"config_type": "managed",
+	"engine_type": "gcp_organization_policy"
+}
