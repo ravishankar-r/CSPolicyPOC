@@ -1,0 +1,14 @@
+{
+	"policy_description": "Checking for clamav installation",
+	"recommendation_name": "Install_Clamav",
+	"recommendation_description": "It is highly recommended to install clamav",
+	"classification": "Security",
+	"sub_classification": "Host",
+	"severity": "medium",
+	"resource_type": "Virtual_Machines",
+	"resource_category": "Compute",
+  "operating_system": ["linux"],
+	"uri": "",
+	"config_type": "managed",
+	"engine_type": "chef_inspec"
+}
