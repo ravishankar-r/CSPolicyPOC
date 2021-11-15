@@ -1,0 +1,5 @@
+{
+    "version": "1.0",
+    "category": "BUCKET_POLICY_ONLY_DISABLED",
+    "scanner_name": "STORAGE_SCANNER"
+}
