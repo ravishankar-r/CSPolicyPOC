@@ -1,0 +1,1 @@
+"efs(file_system_id,Encrypted) :-aws_efs_filesystem:efs(file_system_id=file_system_id,Encrypted=Encrypted),ne(Encrypted,'True');"
